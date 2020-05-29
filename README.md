@@ -15,6 +15,7 @@ The MIBs comprise of managed objects identified by something known as Object Ide
 
 ## SNMP Enumeration
 SNMP works on Port 161 on a UDP protocol.
+
 ![nmap](images/1.png)
 
 **Nmap Scripts**
@@ -31,3 +32,17 @@ SNMP works on Port 161 on a UDP protocol.
 **onesixtyone**
 
 ![onesixtyone](images/6.png)
+
+### Metasploit scanner SNMP auxiliary modules
+**SNMP_ENUM**
+The snmp_enum module performs detailed enumeration of a host or range of hosts via SNMP similar to the standalone tools snmpenum and snmpcheck.
+![snmp_enum](images/7.png)
+
+**SNMP_ENUMSHARES**
+The snmp_enumshares module is a simple scanner that will query a range of hosts via SNMP to determine any available shares.
+
+**SNMP_ENUMUSERS**
+The snmp_enumusers module queries a range of hosts via SNMP and gathers a list of usernames on the remote system.
+
+**SNMP_LOGIN**
+The snmp_login scanner is a module that scans a range of IP addresses to determine the community string for SNMP-enabled devices.
